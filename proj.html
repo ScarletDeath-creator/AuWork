@@ -18,6 +18,29 @@
 <body>
     <div id="app"></div>
     <div id="app2"></div>
+    <script type="text/babel">
+        const user = {
+            id : 5,
+            age : 33,
+            firstName : 'Tom',
+            lastName : 'Smith',
+
+            getFullName: function(){
+                return `FirstName: ${this.firstName} LastName: ${this.lastName}`;
+            }
+        }
+
+        const userClassName = "user-info";
+
+        const styleObj = {
+            color: 'red',
+            fontFamily: 'Verdana',
+            backgroundColor: 'yellow',
+            border: '2px solid black',
+            borderRadius: '20px'
+        };
+
+    </script>
     
 </body>
 </html>
