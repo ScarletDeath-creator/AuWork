@@ -40,6 +40,23 @@
             borderRadius: '20px'
         };
 
+        ReactDOM.createRoot(document.getElementById("app"))
+        .render(
+            <div className = {userClassName} style = {styleObj}>
+                <p>Полное имя: {user.getFullName()} </p>
+                <p>Возраст: {user.age} </p>
+                </div>
+        )
+
+        ReactDOM.createRoot(document.getElementById("app2"))
+        .render(
+            <div className = {userClassName}>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores ab cupiditate odio saepe recusandae corporis accusamus excepturi rerum distinctio, laudantium, quos adipisci fuga aspernatur facere. Rem vel at quidem explicabo.
+                </p>
+                 </div>
+        );
+
     </script>
     
 </body>
